@@ -4,22 +4,29 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
 
 .container  {
   max-width: 500px;
-  margin: 50px auto;
+  margin: 100px auto;
   text-align: center;
 }
 
 
 .green {
-  color: #2f892f;
+  color: #3FBA84;
 }
 
-.red {
-  color: #cb3d3d;
-}
 
 .blue {
-  color: #1b65c6;
+  color: #30485E;
 }

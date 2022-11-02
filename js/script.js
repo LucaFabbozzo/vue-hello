@@ -12,8 +12,11 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Hello VUE!',
-      color: ''
+      message: 'Hello',
+      messageTwo: 'Vue',
+      messageThree: '.Js!',
+      color: 'blue',
+      colorText: 'green'
     }
   }
 }).mount('#app')
