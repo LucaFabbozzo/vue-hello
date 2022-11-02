@@ -5,3 +5,14 @@
 // 1. Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 // 2. Cambiare dinamicamente l’immagine
 // 3. Al click di un bottone nascondere l’immagine e mostrare un testo
+
+
+const { createApp } = Vue
+
+createApp({
+  data() {
+    return {
+      message: 'Hello VUE!'
+    }
+  }
+}).mount('#app')
