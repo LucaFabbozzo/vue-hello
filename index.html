@@ -14,8 +14,8 @@
     <div id="app">
       <h1 :class="color">{{ message }} <spam :class="colorText">{{messageTwo}}</spam><spam :class="color">{{messageThree  }}</spam></h1>
       <img @click="changeImages('./img/vue2.png')" :src="path" alt=""> 
-      <h3 v-show="" :class="messageFour">{{messageFour}}</h3>
-      <button @click="btnShow()">click</button>
+      <h3 v-show="showText" :class="messageFour">{{messageFour}}</h3>
+      <button @click="btnShow(true)">click</button>
      
     </div>
 

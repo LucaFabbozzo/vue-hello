@@ -17,6 +17,7 @@ createApp({
       messageFour: 'The progressive Javascript Framework',
       color: 'blue',
       colorText: 'green',
+      showText: false,
       path: './img/vue.png'
     }
   }, 
@@ -24,8 +25,9 @@ createApp({
     changeImages(newImage){
       this.path = newImage;
     },
-    btnShow() {
-      this.path = '';
+    btnShow(show) {
+      this.path = '',
+      this.showText = show
     }
   }
 }).mount('#app')
