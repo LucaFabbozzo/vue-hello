@@ -12,12 +12,16 @@ body {
 h1 {
   font-size: 3rem;
   text-transform: uppercase;
+  padding-bottom: 40px;
 }
 
+img {
+  width: 100%;
+}
 
 .container  {
   max-width: 500px;
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: center;
 }
 

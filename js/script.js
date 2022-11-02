@@ -16,7 +16,8 @@ createApp({
       messageTwo: 'Vue',
       messageThree: '.Js!',
       color: 'blue',
-      colorText: 'green'
+      colorText: 'green',
+      path: './img/vue.png'
     }
   }
 }).mount('#app')
