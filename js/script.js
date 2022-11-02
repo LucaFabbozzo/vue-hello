@@ -6,7 +6,6 @@
 // 2. Cambiare dinamicamente l’immagine
 // 3. Al click di un bottone nascondere l’immagine e mostrare un testo
 
-
 const { createApp } = Vue
 
 createApp({
@@ -15,9 +14,18 @@ createApp({
       message: 'Hello',
       messageTwo: 'Vue',
       messageThree: '.Js!',
+      messageFour: 'The progressive Javascript Framework',
       color: 'blue',
       colorText: 'green',
       path: './img/vue.png'
+    }
+  }, 
+  methods: {
+    changeImages(newImage){
+      this.path = newImage;
+    },
+    btnShow() {
+      this.path = '';
     }
   }
 }).mount('#app')

@@ -6,14 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://unpkg.com/vue@3"></script>
-  <title>Document</title>
+  <title>Hello Vue!</title>
 </head>
 <body>
   <div class="container">
 
     <div id="app">
       <h1 :class="color">{{ message }} <spam :class="colorText">{{messageTwo}}</spam><spam :class="color">{{messageThree  }}</spam></h1>
-      <img :src="path" alt="">
+      <img @click="changeImages('./img/vue2.png')" :src="path" alt=""> 
+      <h3 v-show="" :class="messageFour">{{messageFour}}</h3>
+      <button @click="btnShow()">click</button>
+     
     </div>
 
   </div>

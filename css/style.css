@@ -17,6 +17,16 @@ h1 {
 
 img {
   width: 100%;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .container  {
