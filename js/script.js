@@ -15,6 +15,7 @@ createApp({
       messageTwo: 'Vue',
       messageThree: '.Js!',
       messageFour: 'The progressive Javascript Framework',
+      clickImg: 'Click the Image',
       color: 'blue',
       colorText: 'green',
       showText: false,
@@ -23,7 +24,7 @@ createApp({
   }, 
   methods: {
     changeImages(newImage){
-      this.path = newImage;
+      this.path = newImage
     },
     btnShow(show) {
       this.path = '',

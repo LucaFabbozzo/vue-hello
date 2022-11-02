@@ -19,6 +19,11 @@ h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
   padding-bottom: 50px;
+  color: #30485E;
+}
+
+p {
+  padding-bottom: 15px;
 }
 
 img {
